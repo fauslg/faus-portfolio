@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+html {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+.header-section {
+    display: block;
+}
+
+.top-image {
+    width: 162px;
+}
+
+.hello-image {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+}
+
+.main-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    display: inline-block
+}
+
+.subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+mark {
+    display: inline-block;
+    line-height: 2px;
+    padding-bottom: 10px;
+    background-color: #B5EDD2;
+}
+
+.about {
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 73px;
+}
+
+.social-links {
+    margin-bottom: 73px;
+}
+
+.social-link {
+    color: #292929;
+    text-decoration: none;
+    margin: 0 17px;
+    border-bottom: 1px solid #D7D7D7;
+    padding-bottom: 3px;
+}
+
+.experience-case-studies {
+    margin-bottom: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 248px;
+    height: 305px;
+    border-radius: 8px;
+    background-color: #292929;
+    -webkit-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
+   -moz-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
+   box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
+}
+
+.card-logo {
+    width: 150px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 72px;
+    opacity: 0.75
+}
+
+.card-button {
+    background-color: white;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 9px 0;
+    width: 150px;
+    border: 0;
+    cursor: pointer;
+}
+
+.pink-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d481a3+0,a3426d+100 */
+    background: #d481a3;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #d481a3 0%, #a3426d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #d481a3 0%, #a3426d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #d481a3 0%, #a3426d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d481a3', endColorstr='#a3426d', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.grey-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99aeb3+0,2b2724+100 */
+background: #99aeb3; /* Old browsers */
+background: -moz-linear-gradient(45deg, #99aeb3 0%, #2b2724 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #99aeb3 0%,#2b2724 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #99aeb3 0%,#2b2724 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99aeb3', endColorstr='#2b2724',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.green-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6ea1ae+0,b7e3d4+100 */
+background: #6ea1ae; /* Old browsers */
+background: -moz-linear-gradient(45deg, #6ea1ae 0%, #b7e3d4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #6ea1ae 0%,#b7e3d4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #6ea1ae 0%,#b7e3d4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ea1ae', endColorstr='#b7e3d4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer {
+    border-top: 1px solid #D7D7D7;
+    width: 870px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 12px;
+}
