@@ -3,8 +3,9 @@ import React from 'react';
 const Button = props => (
     <button
         class="card-button"
+        data-hover="Coming Soon"
     >
-        {props.buttonText}
+       <span>{props.buttonText}</span>
     </button>
 );
 

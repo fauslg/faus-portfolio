@@ -68,6 +68,13 @@ mark {
     margin: 0 17px;
     border-bottom: 1px solid #D7D7D7;
     padding-bottom: 3px;
+    transition: all 200ms ease-in-out;
+}
+
+.social-link:hover {
+    padding-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    color: #60af89;
 }
 
 .experience-case-studies {
@@ -92,13 +99,33 @@ mark {
     height: 305px;
     border-radius: 8px;
     background-color: #292929;
-    -webkit-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
-   -moz-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
-   box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 3px 3px 7px -6px rgba(0,0,0,0.51);
+   -moz-box-shadow: 3px 3px 7px -6px rgba(0,0,0,0.51);
+   box-shadow: 3px 3px 7px -6px rgba(0,0,0,0.51);
+   transition: box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+    -webkit-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.7);
+    -moz-box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.7);
+    box-shadow: 3px 3px 23px -6px rgba(0,0,0,0.7);
+}
+
+.card:hover .logo-wrapper,
+.card:hover .card-button {
+  opacity: 1;
 }
 
 .card-logo {
     width: 150px;
+}
+
+.apex-logo {
+    margin-top: 20px;
+}
+
+.umg-logo {
+    margin-top:15px;
 }
 
 .logo-wrapper {
@@ -106,17 +133,77 @@ mark {
     align-items: center;
     width: 150px;
     height: 72px;
-    opacity: 0.75
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .card-button {
     background-color: white;
     font-size: 13px;
+    font-weight: 500;
     border-radius: 3px;
     padding: 9px 0;
     width: 150px;
     border: 0;
+    opacity: 0.75;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: opacity 0.2s ease-in-out;
     cursor: pointer;
+}
+
+.card-thirdlove .card-button {
+    color: #A5446F;
+}
+
+.card-apex .card-button {
+    color: #393937;
+}
+
+.card-umg .card-button {
+    color: #537780;
+}
+
+.card-button span {
+    transition: 0.6s;
+    transition-delay: 0.2s;
+}
+
+.card-button:before,
+.card-button:after {
+        content: '';
+        position: absolute;
+        top: 0.67em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: .4s,opacity .6s;
+}
+
+/* :before */
+.card-button:before {
+    content: attr(data-hover);
+    transform: translate(-150%,0);
+}
+/* :after */
+.card-button:after {
+  content: attr(data-active);
+  transform: translate(150%,0);
+}
+/* Span on :hover and :active */
+.card-button:hover span,
+.card-button:active span {
+    opacity: 0;
+    transform: scale(0.3);
+}
+/* :before pseudo-element on :hover 
+    and :after pseudo-element on :active */
+.card-button:hover:before {
+    opacity: 1;
+    transform: translate(0,0);
+    transition-delay: .4s;
 }
 
 .pink-gradient {
