@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-    margin-top: 100px;
+    margin: 100px 15px 0;
     text-align: center;
 }
 
@@ -59,10 +59,17 @@ mark {
 }
 
 .social-links {
-    margin-bottom: 73px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 130px;
+}
+
+.social-links-wrapper {
+    line-height: 3;
 }
 
 .social-link {
+    display: inline-block;
     color: #292929;
     text-decoration: none;
     margin: 0 17px;
@@ -86,8 +93,10 @@ mark {
 
 .card-container {
     display: flex;
+    flex-direction: column;
     width: 1000px;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .card {
@@ -103,6 +112,7 @@ mark {
    -moz-box-shadow: 3px 3px 7px -6px rgba(0,0,0,0.51);
    box-shadow: 3px 3px 7px -6px rgba(0,0,0,0.51);
    transition: box-shadow 0.5s ease-in-out;
+   margin-bottom: 30px;
 }
 
 .card:hover {
@@ -240,8 +250,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ea1ae', end
 
 .footer {
     border-top: 1px solid #D7D7D7;
-    width: 870px;
     margin: 0 auto;
-    padding: 20px;
     font-size: 12px;
+    width: 100%;
+    padding-top: 20px;
 }
+
+@media (min-width: 375px) {
+    .container {
+      margin: 100px 15px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+        width: 740px;
+    }
+    .card {
+        width: 208px;
+        height: 265px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-container {
+        width: 1000px;
+    }
+    .card {
+        width: 248px;
+        height: 305px;
+    }
+}
+

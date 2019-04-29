@@ -24,12 +24,14 @@ export default () => (
     </div>
     <div class="social-links">
       <h2 class="subheading">Connect with me</h2>
+      <div class="social-links-desktop">
       <a href="https://www.behance.net/faustinogaitan" target="_blank" rel="noopener norefferer" class="social-link">behance</a>
       <a href="https://github.com/fauslg" target="_blank" rel="noopener norefferer" class="social-link">github</a>
       <a href="https://www.linkedin.com/in/faustinogaitan/" target="_blank" rel="noopener norefferer" class="social-link">linkedin</a>
       <a href="https://twitter.com/fausgaitan" target="_blank" rel="noopener norefferer" class="social-link">twitter</a>
       <a href="https://medium.com/@faustinogaitan" target="_blank" rel="noopener norefferer" class="social-link">medium</a>
       <a href="https://www.instagram.com/fauslg/" target="_blank" rel="noopener norefferer" class="social-link">instagram</a>
+      </div>
     </div>
     <div class="experience-case-studies">
       <h2 class="subheading">Experience & Case Studies</h2>
