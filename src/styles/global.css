@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-    margin: 100px 15px 0;
+    margin: 50px 15px 0;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@ html {
 
 .header-section {
     display: block;
+    margin-top: 20px;
 }
 
 .top-image {
@@ -33,7 +34,7 @@ html {
 .main-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    display: inline-block
+    display: inline-block;
 }
 
 .subheading {
@@ -55,7 +56,12 @@ mark {
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
-    margin-bottom: 73px;
+    margin-bottom: 40px;
+}
+
+.social-icon {
+  height: 27px;
+  margin: 7px 25px;
 }
 
 .social-links {
@@ -82,13 +88,6 @@ mark {
     padding-bottom: 20px;
     border-bottom: 1px solid transparent;
     color: #60af89;
-}
-
-.experience-case-studies {
-    margin-bottom: 73px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .card-container {
@@ -254,18 +253,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ea1ae', end
     font-size: 12px;
     width: 100%;
     padding-top: 20px;
-}
-
-@media (min-width: 375px) {
-    .container {
-      margin: 100px 15px 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .social-links-desktop {
-        display: none;
-    }
+    padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -288,4 +276,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ea1ae', end
         height: 305px;
     }
 }
+
+/*
+@media (min-width: 375px) {
+    .container {
+      margin: 50px 15px 0;
+    }
+
+    .about {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-heading {
+        font-size: 25px;
+    }
+
+    .hello-image {
+        width: 25px;
+    }
+
+    .social-links {
+        margin: 0 auto;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .social-links-desktop {
+        display: none;
+    }
+
+    .social-links-mobile {
+        display: block;
+        line-height: 3;
+    }
+}
+
+
+*/
 
