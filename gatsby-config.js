@@ -19,5 +19,5 @@ module.exports = {
         },
       },
     ],
-    pathPrefix: "/faus-portfolio-deploy",
+    pathPrefix: "/faus-portfolio",
   }
