@@ -19,5 +19,5 @@ module.exports = {
         },
       },
     ],
-    pathPrefix: "/reponame",
+    pathPrefix: "/faus-portfolio",
   }
