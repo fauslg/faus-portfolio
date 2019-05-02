@@ -18,5 +18,6 @@ module.exports = {
           // Add any options here
         },
       },
-    ]
+    ],
+    pathPrefix: "/reponame",
   }
