@@ -18,6 +18,5 @@ module.exports = {
           // Add any options here
         },
       },
-    ],
-    pathPrefix: "/faus-portfolio",
+    ]
   }
